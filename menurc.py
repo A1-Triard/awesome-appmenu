@@ -6,8 +6,8 @@ home = os.environ["HOME"]
 
 """ List of paths to find launchers and icons, given in order of priority. They
     are searched recursively, so there's no need to enter subpaths. """
-launcherpaths=["/usr/share/applications", home + "/.local/share/applications"]
-iconpaths=["/usr/share/icons/Adwaita", "/usr/share/icons/oxygen", "/usr/share/icons/hicolor"]
+launcherpaths=["/usr/local/share/applications", home + "/.local/share/applications"]
+iconpaths=["/usr/local/share/icons/Adwaita", "/usr/local/share/icons/oxygen", "/usr/local/share/icons/hicolor"]
 
 """ List of categories """
 """             Name in .desktop file   Display name    Icon """
